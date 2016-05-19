@@ -1,8 +1,6 @@
 var t = require('tap')
 
-process.env.TEST_PSEUDOMAP = 'true'
-
-var PM = require('../')
+var PM = require('../pseudomap')
 runTests(PM)
 
 // if possible, verify that Map also behaves the same way
